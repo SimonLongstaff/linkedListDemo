@@ -120,6 +120,7 @@ const css = {
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  const prerender = true;
   let list = new LinkedList();
   list.push({ value: "Item 1", id: 1 });
   list.push({ value: "Item 2", id: 2 });
@@ -161,6 +162,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     list.previous();
     list = list;
   }
+  if ($$props.prerender === void 0 && $$bindings.prerender && prerender !== void 0)
+    $$bindings.prerender(prerender);
   $$result.css.add(css);
   return `<div class="${"app"}"><div style="${"margin: 40px"}"><h1 class="${"text-center text-3xl font-bold und"}">Linked List</h1>
         <h3 class="${"text-center text-xl font-bold"}">Example page for doubly linked list implementation in TypeScript</h3></div>
