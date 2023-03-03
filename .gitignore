@@ -41,3 +41,4 @@ vite.config.js.timestamp-*
 .vercel
 .test-tmp
 symlink-from
+/build/

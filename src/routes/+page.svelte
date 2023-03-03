@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import { LinkedList} from "@simonlongstaff/linked-list/src";
-    import ListItemCard from "./ListItemCard.svelte";
+    import ListItemCard from "../ListItemCard.svelte";
     import AddItem from "../AddItem.svelte";
     import CurrentItem from "../CurrentItem.svelte";
 
