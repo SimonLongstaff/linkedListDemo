@@ -116,7 +116,7 @@ const CurrentItem = create_ssr_component(($$result, $$props, $$bindings, slots) 
 });
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "html{background:#dbeafe}",
+  code: 'html{background:theme("colors.blue.100")}',
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
