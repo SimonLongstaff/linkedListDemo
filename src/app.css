@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app {
+  @apply text-gray-900;
+    margin: 0 20vw;
+}
+
+.flex-column-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 30px;
+    @apply bg-white shadow-lg rounded-lg overflow-hidden;
+}
+
+
+@media (max-width: 640px) {
+    .card {
+    margin: 10px 0;
+    }
+
+    .app {
+      margin: 0 10px;
+    }
+}
