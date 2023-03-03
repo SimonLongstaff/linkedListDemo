@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_page.f84f1f0a.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.a40a4212.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.010fa5b9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.31728254.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.95b9a3fb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.e1c99ffb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.07c04cf2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.025914ab.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.a0abfb79.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="app"><div style="margin: 40px"><h1 class="text-center text-3xl font-bold und">Linked List</h1>
+        <h3 class="text-center text-xl font-bold">Example page for doubly linked list implementation in TypeScript</h3></div>
+
+    <div class="card"><h1 class="font-bold text-3xl">Add Item</h1>
+    
+
+    <button style="margin: 20px 0 0 0" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Add Key Value Pair</button>
+    </div>
+
+    <div class="card"><button class="bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded">Reverse List</button></div>
+
+    <div class="card"><h1 style="margin-bottom: 10px" class="font-bold text-3xl ">Current Item</h1>
+    <div><span class="font-bold">Value : </span>
+            <span>Item 1</span>
+        </div><div><span class="font-bold">Id : </span>
+            <span>1</span>
+        </div>
+
+    <div class="flex justify-between" style="margin-top: 10px"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Prev
+        </button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Next
+        </button></div></div>
+
+        <div class="flex-column-cards"><div class="card"><h1 style="margin-bottom: 10px" class="font-bold text-3xl "># 1</h1>
+<div><span class="font-bold">Value : </span>
+        <span>Item 1</span>
+    </div><div><span class="font-bold">Id : </span>
+        <span>1</span>
+    </div>
+    <div class="flex"><button style="margin: 5px 5px 5px 0" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Up
+        </button>
+        <button style="margin: 5px 0 5px 5px" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Down
+        </button></div>
+    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete
+    </button></div><div class="card"><h1 style="margin-bottom: 10px" class="font-bold text-3xl "># 2</h1>
+<div><span class="font-bold">Value : </span>
+        <span>Item 2</span>
+    </div><div><span class="font-bold">Id : </span>
+        <span>2</span>
+    </div>
+    <div class="flex"><button style="margin: 5px 5px 5px 0" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Up
+        </button>
+        <button style="margin: 5px 0 5px 5px" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Down
+        </button></div>
+    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete
+    </button></div><div class="card"><h1 style="margin-bottom: 10px" class="font-bold text-3xl "># 3</h1>
+<div><span class="font-bold">Value : </span>
+        <span>Item 3</span>
+    </div><div><span class="font-bold">Id : </span>
+        <span>3</span>
+    </div>
+    <div class="flex"><button style="margin: 5px 5px 5px 0" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Up
+        </button>
+        <button style="margin: 5px 0 5px 5px" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex-1">Move Down
+        </button></div>
+    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Delete
+    </button></div></div>
+</div>
+
+
+			
+			<script>
+				{
+					__sveltekit_1i2hjem = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.a40a4212.js"),
+						import("./_app/immutable/entry/app.95b9a3fb.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1i2hjem.element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
